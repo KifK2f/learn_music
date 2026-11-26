@@ -42,7 +42,7 @@ class HomeState extends State<Home> {
                   ],
                 ),
 
-                Text("Mon App de Musique"),
+                items[currentIndex].titleForAppBar // Afficher du Text
               ],
             ),
           ))
