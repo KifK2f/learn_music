@@ -6,14 +6,17 @@ import 'package:learn_music/model/raw_model/song.dart';
 class MusicDatas {
 
   //Artists
-  Artist eminem = Artist(name: "Eminem", urlImage: "https://img.nrj.fr/zpXIPBmeFegj7GTAJAu2wkI7ztI=/http://image-api.nrj.fr/http/media.nrj.fr/1900x1200/2017/12/eminem_799.jpg");
+  // Artist eminem = Artist(name: "Eminem", urlImage: "https://img.nrj.fr/zpXIPBmeFegj7GTAJAu2wkI7ztI=/http://image-api.nrj.fr/http/media.nrj.fr/1900x1200/2017/12/eminem_799.jpg");
   Artist tupac = Artist(name: "2pac", urlImage: "https://arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/ZRUB7IELF4RAUO4ZRV5TNJVRVQ.jpg");
-  Artist smashing = Artist(name: "Smashing Pumpkins", urlImage: "https://www.rollingstone.fr/wp-content/uploads/2018/08/SmashingPumpkins.jpg");
+  // Artist smashing = Artist(name: "Smashing Pumpkins", urlImage: "https://www.rollingstone.fr/wp-content/uploads/2018/08/SmashingPumpkins.jpg");
   Artist amadeus = Artist(name: "Mozart", urlImage: "https://www.musicologie.org/Biographies/m/mozart.jpg");
   Artist fela = Artist(name: "Fela Kuti", urlImage: "https://picsum.photos/seed/fela/500/500");
   Artist kirk = Artist(name: "Kirk Franklin", urlImage: "https://picsum.photos/seed/kirk/500/500");
   Artist michael = Artist(name: "Michael Jackson", urlImage: "https://picsum.photos/seed/michael/500/500");
   Artist beethoven = Artist(name: "Beethoven", urlImage: "https://picsum.photos/seed/beethoven/500/500");
+
+  Artist eminem = Artist(name: "Eminem", urlImage: "https://picsum.photos/seed/eminem/500/500");
+  Artist smashing = Artist(name: "Smashing Pumpkins", urlImage: "https://picsum.photos/seed/smashing/500/500");
 
 
   //Music

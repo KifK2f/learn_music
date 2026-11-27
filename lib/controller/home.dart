@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:learn_music/model/raw_model/bar_choice.dart';
+import 'package:learn_music/views/music_view.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -16,7 +17,7 @@ class Home extends StatefulWidget {
 class HomeState extends State<Home> {
   int currentIndex = 0;
   List<BarChoice> items = [
-    BarChoice(label: "Musique", iconData: Icons.music_note, page: Container()),
+    BarChoice(label: "Musique", iconData: Icons.music_note, page: MusicView()),
     BarChoice(label: "Favoris", iconData: Icons.whatshot, page: Container()),
     BarChoice(label: "Recherche", iconData: Icons.search, page: Container()),
   ];
@@ -48,9 +49,7 @@ class HomeState extends State<Home> {
           ))
       ),
       
-      body: Center(
-        child: Text("Mon app"),
-      ),
+      body: items[currentIndex].page,
 
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
