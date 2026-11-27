@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_music/views/list_containers/albums_container.dart';
 import 'package:learn_music/views/list_containers/artist_container.dart';
 
 class MusicView extends StatelessWidget {
@@ -14,7 +15,11 @@ class MusicView extends StatelessWidget {
           //Container pour les artistes
           ArtistContainer(),
           //Container pour les albums
+          const Divider(),
+          AlbumsContainer(),
           //Container pour les genres et musiques
+          const Divider(),
+
 
         ],
       ),
